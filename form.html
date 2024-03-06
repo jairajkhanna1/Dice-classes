@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+  </head>
+
+  <style>
+    body {
+        background-image: linear-gradient(to left, orangered 70%, orange);
+    }
+    .div1 {
+      margin: auto;
+      margin-top: 100px;
+      width: 50%;
+      height: 300px;
+      border-radius: 4%;
+      background-color: white;
+      position: relative;
+      padding: 100px;
+    }
+    .div2 {
+      background-image: linear-gradient(to right, orangered, orange);
+      width: 20%;
+      height: 300px;
+      position: absolute;
+      bottom: 190px;
+      left: 200px;
+      border-radius: 4%;
+      box-shadow: 5px 5px 30px -5px orangered;
+    }
+    .date {
+      margin-top: 30px;
+      color: gray;
+      font-size: 18px;
+      font-family: sans-serif;
+      margin-left: 250px;
+    }
+    h2 {
+      font-family: sans-serif;
+      margin-left: 250px;
+    }
+
+    .para {
+      color: gray;
+      font-size: 20px;
+      font-family: sans-serif;
+      margin-left: 250px;
+    }
+
+    .main-button {
+      font-size: 20px;
+      margin-left: 250px;
+      font-family: sans-serif bold;
+      color: white;
+      background-image: linear-gradient(to left, orangered 70%, orange);
+      border-radius: 100px;
+      height: 70px;
+      width: 200px;
+      border: none;
+      margin-top: 20px;
+    }
+    .btns{
+        position: absolute;
+        right: 15px;
+        bottom: 220px;
+        display: inline-block;
+    }
+    
+    .b1{
+        background-color: lightgray;
+        width: 15px;
+        height:15px;
+        border: none;
+        border-radius: 100px;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+    .b2{
+        background-color: orangered;
+        width: 15px;
+        height:30px;
+        border: none;
+        border-radius: 100px;
+        margin: 0px;
+        margin-bottom: 5px;
+
+    }
+    .b3{
+        background-color: lightgray;
+        width: 15px;
+        height:15px;
+        border: none;
+        border-radius: 100px;
+        margin: 0px;
+    }
+  </style>
+
+  <body>
+    <div class="div1">
+      <p class="date">26 December 2019</p>
+      <h2>Lorem Ipsum Dolor</h2>
+      <p class="para">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+        exercitationem error soluta cum similique excepturi.</p>
+      </p>
+      <button class="main-button">READ MORE</button>
+      <div class="btns">
+        <p class="b1"></p>
+        <p class="b2"></p>
+        <p class="b3"></p>
+      </div>
+    </div>
+
+    <div class="div2"></div>
+  </body>
+</html>
